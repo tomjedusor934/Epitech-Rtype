@@ -1,0 +1,40 @@
+/*
+** EPITECH PROJECT, 2023
+** ecs_rType
+** File description:
+** components
+*/
+
+#include "Components/buttonmenu.hpp"
+#include "Components/cubemodel.hpp"
+#include "Components/gravity.hpp"
+#include "Components/hitboxgravity.hpp"
+#include "Components/interface.hpp"
+#include "Components/orientation.hpp"
+#include "Components/position3d.hpp"
+#include "Components/raylibcamera.hpp"
+#include "Components/velocity.hpp"
+#include "Components/imageAnim.hpp"
+#include "Components/buttonmenu.hpp"
+#include "Components/gifAnim.hpp"
+#include "Components/texture2d.hpp"
+#include "Components/imageComp.hpp"
+#include "Components/position2d.hpp"
+#include "Components/floatRotation.hpp"
+#include "Components/xpPlayer.hpp"
+#include "Components/speedPlayer.hpp"
+#include "Components/Health.hpp"
+#include "Components/fontSize.hpp"
+#include "Components/InitialFontSize.hpp"
+#include "Components/Rectangle2d.hpp"
+#include "Components/TextAreaComp.hpp"
+#include "Components/text.hpp"
+#include "Components/model3d.hpp"
+#include "Components/font.hpp"
+#include "Components/color.hpp"
+#include "Components/velocityGravity.hpp"
+#include "Components/weaponModel.hpp"
+#include "Components/ammo.hpp"
+#include "Components/reloading.hpp"
+#include "Components/listener.hpp"
+#include "Components/ObjectTransform.hpp"

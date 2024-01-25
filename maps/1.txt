@@ -1,0 +1,247 @@
+PLANE:
+name = "plane1"
+width = 75.0
+lenght = 150.0
+sizex = 32.0
+sizey = 32.0
+color = 255,255,255,255
+texture = ./Media/ground.png
+
+CUBE:
+name = "bigwall1"
+posx = -40.0
+posy = 5.0
+posz = 0.0
+sizex = 5.0
+sizey = 10.0
+sizez = 150.0
+color = 255, 255, 255, 255
+texture = ./Media/wall.png
+
+CUBE:
+name = "bigwall2"
+posx = 40.0
+posy = 5.0
+posz = 0.0
+sizex = 5.0
+sizey = 10.0
+sizez = 150.0
+color = 255, 255, 255, 255
+texture = ./Media/wall.png
+
+CUBE:
+name = "bigwall3"
+posx = 0.0
+posy = 5.0
+posz = 75.0
+sizex = 75.0
+sizey = 10.0
+sizez = 5.0
+color = 255, 255, 255, 255
+texture = ./Media/wall.png
+
+CUBE:
+name = "bigwall4"
+posx = 0.0
+posy = 5.0
+posz = -75.0
+sizex = 75.0
+sizey = 10.0
+sizez = 5.0
+color = 255, 255, 255, 255
+texture = ./Media/wall.png
+
+CUBE:
+name = "cube1"
+posx = -27.5
+posy = 5.0
+posz = -65.0
+sizex = 20.0
+sizey = 10.0
+sizez = 20.0
+color = 255, 255, 255, 255
+texture = ./Media/bricks_wall.png
+
+CUBE:
+name = "cube2"
+posx = 27.5
+posy = 5.0
+posz = -65.0
+sizex = 20.0
+sizey = 10.0
+sizez = 20.0
+color = 255, 255, 255, 255
+texture = ./Media/bricks_wall.png
+
+CUBE:
+name = "cube3"
+posx = -27.5
+posy = 5.0
+posz = 65.0
+sizex = 20.0
+sizey = 10.0
+sizez = 20.0
+color = 255, 255, 255, 255
+texture = ./Media/bricks_wall.png
+
+CUBE:
+name = "cube4"
+posx = 27.5
+posy = 5.0
+posz = 65.0
+sizex = 20.0
+sizey = 10.0
+sizez = 20.0
+color = 255, 255, 255, 255
+texture = ./Media/bricks_wall.png
+
+CUBE:
+name = "cube5"
+posx = 22.35
+posy = 5.0
+posz = -10.0
+sizex = 30.25
+sizey = 10.0
+sizez = 3.0
+color = 255, 255, 255, 255
+texture = ./Media/wall2.png
+
+CUBE:
+name = "cube6"
+posx = -22.35
+posy = 5.0
+posz = 10.0
+sizex = 30.25
+sizey = 10.0
+sizez = 3.0
+color = 255, 255, 255, 255
+texture = ./Media/wall2.png
+
+CUBE:
+name = "cube7"
+posx = 35.0
+posy = 1.25
+posz = -13.0
+sizex = 2.5
+sizey = 2.5
+sizez = 2.5
+color = 255, 255, 255, 255
+texture = ./Media/case.png
+
+CUBE:
+name = "cube8"
+posx = -35.0
+posy = 1.25
+posz = 13.0
+sizex = 2.5
+sizey = 2.5
+sizez = 2.5
+color = 255, 255, 255, 255
+texture = ./Media/case.png
+
+CUBE:
+name = "cube9"
+posx = 5.0
+posy = 5.0
+posz = -30.0
+sizex = 32.0
+sizey = 10.0
+sizez = 3.0
+color = 255, 255, 255, 255
+texture = ./Media/wall2.png
+
+CUBE:
+name = "cube10"
+posx = -5.0
+posy = 5.0
+posz = 30.0
+sizex = 32.0
+sizey = 10.0
+sizez = 3.0
+color = 255, 255, 255, 255
+texture = ./Media/wall2.png
+
+CUBE:
+name = "cube11"
+posx = -12.5
+posy = 5.0
+posz = -21.5
+sizex = 3.0
+sizey = 10.0
+sizez = 20.0
+color = 255, 255, 255, 255
+texture = ./Media/wall2.png
+
+CUBE:
+name = "cube12"
+posx = 12.5
+posy = 5.0
+posz = 21.5
+sizex = 3.0
+sizey = 10.0
+sizez = 20.0
+color = 255, 255, 255, 255
+texture = ./Media/wall2.png
+
+CUBE:
+name = "cube13"
+posx = -10.0
+posy = 5.0
+posz = -10.0
+sizex = 8.0
+sizey = 10.0
+sizez = 3.0
+color = 255, 255, 255, 255
+texture = ./Media/wall2.png
+
+CUBE:
+name = "cube14"
+posx = 10.0
+posy = 5.0
+posz = 10.0
+sizex = 8.0
+sizey = 10.0
+sizez = 3.0
+color = 255, 255, 255, 255
+texture = ./Media/wall2.png
+
+CUBE:
+name = "cube15"
+posx = -15.0
+posy = 1.25
+posz = -7.25
+sizex = 2.5
+sizey = 2.5
+sizez = 2.5
+color = 255, 255, 255, 255
+texture = ./Media/case.png
+
+CUBE:
+name = "cube16"
+posx = 15.0
+posy = 1.25
+posz = 7.25
+sizex = 2.5
+sizey = 2.5
+sizez = 2.5
+color = 255, 255, 255, 255
+texture = ./Media/case.png
+
+CUBE:
+name = "cube19"
+posx = 30.0
+posy = 9.5
+posz = 20.0
+sizex = 32.0
+sizey = 1.0
+sizez = 23.0
+color = 255, 255, 255, 255
+texture = ./Media/wall.png
+
+LIGHT:
+name = "light1"
+type = 1
+posx = 0.0
+posy = 50.0
+posz = 0.0
+color = 255, 255, 255, 255

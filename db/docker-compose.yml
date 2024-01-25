@@ -1,0 +1,19 @@
+services:
+  rtype_database:
+    container_name: rtype_db
+    hostname: rtype_db
+    image: mariadb:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=${ROOT_PASSWORD}
+      - MYSQL_DATABASE=${DATABASE}
+    volumes:
+      - ./schema/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - ./save/:/save/
+    ports:
+      - "6666:3306"
+    networks:
+      - personal-network
+
+networks:
+  personal-network:
+    external: true

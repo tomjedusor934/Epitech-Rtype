@@ -1,0 +1,9 @@
+[requires]
+raylib/5.0
+asio/1.28.2
+cpr/1.10.5
+sfml/2.6.1
+libmysqlclient/8.1.0
+[generators]
+CMakeDeps
+CMakeToolchain

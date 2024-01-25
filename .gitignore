@@ -1,0 +1,54 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Specific folders
+.vscode
+
+# project names
+r-type_client
+r-type_server
+r-type_game_server
+client
+game
+server
+
+# db save
+db/save
+
+# Fichiers de build générés par CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+*.env

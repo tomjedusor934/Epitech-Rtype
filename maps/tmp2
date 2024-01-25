@@ -1,0 +1,16 @@
+PLANE:
+name = "plane1"
+width = 50.0
+lenght = 50.0
+sizex = 32.0
+sizey = 32.0
+color = 255,255,255,255
+texture = ./Media/ground_rock.png
+
+LIGHT:
+name = "light1"
+type = 1
+posx = 0.0
+posy = 50.0
+posz = 0.0
+color = 255, 255, 255, 255

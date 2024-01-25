@@ -1,0 +1,14 @@
+MODEL:
+name = "model1"
+posx = 0.0
+posy = 0.5
+posz = 5.0
+sizex = 1.0
+sizey = 1.0
+sizez = 1.0
+sizeBBx = 15.0
+sizeBBy = 5.0
+sizeBBz = 4.0
+color = 255, 255, 255, 255
+path = ./Media/models/wall.obj
+texture = ./Media/models/wall_texture.png
