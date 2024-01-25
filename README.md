@@ -1,7 +1,7 @@
 # Epitech-Rtype
 A 3rd year epitech project. A basic multiplayer cross plateform fps
 
-## Some in game pictures
+## Some in-game pictures
 
 ![Image](https://cdn.discordapp.com/attachments/563018043219902472/1200081843039502347/Screenshot_from_2024-01-22_12-45-54.png?ex=65c4e24f&is=65b26d4f&hm=15490257222d19ef98b8c5f7ceff40d1514271f0467f7c74e0fa86c8b5ab2c33&)
 ![Image](https://cdn.discordapp.com/attachments/563018043219902472/1200081842506846321/Screenshot_from_2024-01-22_12-46-49.png?ex=65c4e24f&is=65b26d4f&hm=365b9b743e1e9e089ffb7be80a957d71c75b8c274dbf0d43929147fbaf449953&)
