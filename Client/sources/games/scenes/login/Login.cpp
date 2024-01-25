@@ -27,40 +27,12 @@ void rtype::Login::update(float deltatime, float getTime)
     this->systemRegisterButton(this->getEntity("register"), this->getEntity("username"), this->getEntity("password"), this->_clientToServer);
 }
 
-void rtype::Login::connectToFtp()
-{
-    this->_ftp->connect("tal-web.com", 21, sf::seconds(5));
-    this->_response = this->_ftp->login("ftp_user", "aqwzsx");
-    if (!this->_response.isOk())
-        std::cout << "Error: " << this->_response.getMessage() << std::endl;
-    else
-        std::cout << "Connected to FTP server" << std::endl;
-
-    sf::Ftp::ListingResponse response = this->_ftp->getDirectoryListing();
-    if (!response.isOk())
-        std::cout << "Error: " << response.getMessage() << std::endl;
-    else
-        for (std::size_t i = 0; i < response.getListing().size(); ++i) {
-            std::cout << response.getListing()[i] << std::endl;
-            // essayer de changer le dossier de travail
-            this->_response = this->_ftp->changeDirectory(response.getListing()[i]);
-            if (!this->_response.isOk())
-                std::cout << "Error: " << this->_response.getMessage() << std::endl;
-            else
-                std::cout << "Directory changed successfully" << std::endl;
-        }
-}
-
 void rtype::Login::systemConnexionButton(std::shared_ptr<rtype::ECS::Ecs3D::IEntity> login, std::shared_ptr<rtype::ECS::Ecs3D::IEntity> usernameTextArea, std::shared_ptr<rtype::ECS::Ecs3D::IEntity> passwordTextArea, std::unique_ptr<rtype::ClientToServer> &_clientToServer, _Scene &actualScene)
 {
     if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON) && CheckCollisionPointRec(GetMousePosition(), login->getComponent<rtype::ECS::Ecs3D::ButtonMenu>()->button)) {
         std::cout << "username: " << usernameTextArea->getComponent<rtype::ECS::Ecs3D::Text>()->text << std::endl;
         std::cout << "password: " << passwordTextArea->getComponent<rtype::ECS::Ecs3D::Text>()->text << std::endl;
 
-        // if (!this->_updated)
-        //     this->connectToFtp();
-            // this->checkPotentialUpdate();
-        // return;
         if (usernameTextArea->getComponent<rtype::ECS::Ecs3D::Text>()->text == "" || passwordTextArea->getComponent<rtype::ECS::Ecs3D::Text>()->text == "") {
             std::cout << "Please enter a username and a password" << std::endl;
             return;
